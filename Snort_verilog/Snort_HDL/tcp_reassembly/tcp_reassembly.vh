@@ -1,0 +1,12 @@
+`ifndef TCP_REASSEMBLY_H
+`define TCP_REASSEMBLY_H
+
+`define NUM_TCP_STREAMS			1024
+`define NUM_SLOTS_PER_STREAM	4
+
+`define ACK_FLAG_MASK	8'h10
+`define RST_FLAG_MASK	8'h04
+`define SYN_FLAG_MASK	8'h02
+`define FIN_FLAG_MASK	8'h01
+
+`endif

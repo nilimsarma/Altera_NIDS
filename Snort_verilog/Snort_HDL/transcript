@@ -1,0 +1,317 @@
+# do run.do
+# ** Warning: (vlib-34) Library already exists at "../modelsim/work".
+# 
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work ../modelsim/work 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:14 on Nov 29,2015
+# vlog -sv generic/typedefs.sv 
+# -- Compiling package TYPEDEFS_P
+# 
+# Top level modules:
+# 	--none--
+# End time: 08:04:14 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:14 on Nov 29,2015
+# vlog -sv parser/parser_typedefs.sv 
+# -- Compiling package PARSER_TYPEDEFS_P
+# 
+# Top level modules:
+# 	--none--
+# End time: 08:04:14 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:14 on Nov 29,2015
+# vlog -sv generic/protocols_typedefs.sv 
+# -- Compiling package PROTOCOLS_TYPEDEFS_P
+# -- Importing package TYPEDEFS_P
+# 
+# Top level modules:
+# 	--none--
+# End time: 08:04:14 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:14 on Nov 29,2015
+# vlog -sv tcp_reassembly/tcp_reassembly_typedefs.sv 
+# -- Compiling package TCP_REASSEMBLY_TYPEDEFS_P
+# -- Importing package TYPEDEFS_P
+# 
+# Top level modules:
+# 	--none--
+# End time: 08:04:14 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:14 on Nov 29,2015
+# vlog -sv hash/hash_typedefs.sv 
+# -- Compiling package HASH_TYPEDEFS_P
+# -- Importing package TYPEDEFS_P
+# -- Importing package TCP_REASSEMBLY_TYPEDEFS_P
+# 
+# Top level modules:
+# 	--none--
+# End time: 08:04:14 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:14 on Nov 29,2015
+# vlog -sv generic/channels.sv 
+# -- Compiling package CHANNELS_P
+# -- Importing package TYPEDEFS_P
+# -- Importing package PROTOCOLS_TYPEDEFS_P
+# -- Importing package TCP_REASSEMBLY_TYPEDEFS_P
+# -- Importing package HASH_TYPEDEFS_P
+# 
+# Top level modules:
+# 	--none--
+# End time: 08:04:14 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:14 on Nov 29,2015
+# vlog -sv parser/parser.sv 
+# -- Compiling package parser_sv_unit
+# -- Importing package TYPEDEFS_P
+# -- Importing package PARSER_TYPEDEFS_P
+# -- Importing package PROTOCOLS_TYPEDEFS_P
+# -- Importing package CHANNELS_P
+# -- Importing package TCP_REASSEMBLY_TYPEDEFS_P
+# -- Importing package HASH_TYPEDEFS_P
+# -- Compiling module eth_parser
+# -- Compiling module ipv4_parser
+# -- Compiling module tcp_parser
+# -- Compiling module parser
+# 
+# Top level modules:
+# 	parser
+# End time: 08:04:14 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:14 on Nov 29,2015
+# vlog -sv tcp_reassembly/tcp_reassembly.sv 
+# -- Compiling package tcp_reassembly_sv_unit
+# -- Importing package TYPEDEFS_P
+# -- Importing package PROTOCOLS_TYPEDEFS_P
+# -- Importing package TCP_REASSEMBLY_TYPEDEFS_P
+# -- Importing package HASH_TYPEDEFS_P
+# -- Importing package CHANNELS_P
+# -- Compiling module tcp_reassembly
+# 
+# Top level modules:
+# 	tcp_reassembly
+# End time: 08:04:15 on Nov 29,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:15 on Nov 29,2015
+# vlog -sv hash/hash.sv 
+# -- Compiling package hash_sv_unit
+# -- Importing package TYPEDEFS_P
+# -- Importing package HASH_TYPEDEFS_P
+# -- Importing package TCP_REASSEMBLY_TYPEDEFS_P
+# -- Importing package CHANNELS_P
+# -- Importing package PROTOCOLS_TYPEDEFS_P
+# -- Compiling module hash
+# 
+# Top level modules:
+# 	hash
+# End time: 08:04:15 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:15 on Nov 29,2015
+# vlog -sv snort_top/snort_top.sv 
+# -- Compiling package snort_top_sv_unit
+# -- Importing package CHANNELS_P
+# -- Importing package TYPEDEFS_P
+# -- Importing package PROTOCOLS_TYPEDEFS_P
+# -- Importing package TCP_REASSEMBLY_TYPEDEFS_P
+# -- Importing package HASH_TYPEDEFS_P
+# -- Compiling module snort_top
+# 
+# Top level modules:
+# 	snort_top
+# End time: 08:04:15 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:15 on Nov 29,2015
+# vlog -sv parser/parser_tb.sv 
+# -- Compiling package parser_tb_sv_unit
+# -- Importing package TYPEDEFS_P
+# -- Importing package PARSER_TYPEDEFS_P
+# -- Importing package PROTOCOLS_TYPEDEFS_P
+# -- Importing package CHANNELS_P
+# -- Importing package TCP_REASSEMBLY_TYPEDEFS_P
+# -- Importing package HASH_TYPEDEFS_P
+# -- Compiling module parser_tb
+# 
+# Top level modules:
+# 	parser_tb
+# End time: 08:04:15 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:15 on Nov 29,2015
+# vlog -sv hash/hash_tb.sv 
+# -- Compiling package hash_tb_sv_unit
+# -- Importing package TYPEDEFS_P
+# -- Importing package HASH_TYPEDEFS_P
+# -- Importing package TCP_REASSEMBLY_TYPEDEFS_P
+# -- Importing package CHANNELS_P
+# -- Importing package PROTOCOLS_TYPEDEFS_P
+# -- Compiling module hash_tb
+# 
+# Top level modules:
+# 	hash_tb
+# End time: 08:04:15 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 08:04:15 on Nov 29,2015
+# vlog -sv snort_top/snort_top_tb.sv 
+# -- Compiling package snort_top_tb_sv_unit
+# -- Importing package TYPEDEFS_P
+# -- Importing package TCP_REASSEMBLY_TYPEDEFS_P
+# -- Importing package CHANNELS_P
+# -- Importing package PROTOCOLS_TYPEDEFS_P
+# -- Importing package HASH_TYPEDEFS_P
+# -- Compiling module snort_top_tb
+# 
+# Top level modules:
+# 	snort_top_tb
+# End time: 08:04:15 on Nov 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -do "run.do" 
+# Start time: 08:04:15 on Nov 29,2015
+# Loading sv_std.std
+# Loading work.TYPEDEFS_P
+# Loading work.TCP_REASSEMBLY_TYPEDEFS_P
+# Loading work.HASH_TYPEDEFS_P
+# Loading work.PROTOCOLS_TYPEDEFS_P
+# Loading work.CHANNELS_P
+# Loading work.snort_top_tb_sv_unit
+# Loading work.snort_top_tb
+# Loading work.snort_top_sv_unit
+# Loading work.snort_top
+# Loading work.PARSER_TYPEDEFS_P
+# Loading work.parser_sv_unit
+# Loading work.parser
+# Loading work.eth_parser
+# Loading work.ipv4_parser
+# Loading work.tcp_parser
+# Loading work.tcp_reassembly_sv_unit
+# Loading work.tcp_reassembly
+# Loading work.hash_sv_unit
+# Loading work.hash
+# STREAM_STATE: syn
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 199.181.132.250, TCP hdr, PORT_1 = 52166, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: syn_ack
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 199.181.132.250, TCP hdr, PORT_1 = 52166, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 199.181.132.250, TCP hdr, PORT_1 = 52166, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 199.181.132.250, TCP hdr, PORT_1 = 52166, PORT_2 =    80, TCP_SEG_LEN =   379
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 199.181.132.250, TCP hdr, PORT_1 = 52166, PORT_2 =    80, TCP_SEG_LEN =   430
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 199.181.132.250, TCP hdr, PORT_1 = 52166, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: syn
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: syn_ack
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =   378
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =  1368
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =  1368
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =  1368
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: syn
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41834, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: syn
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41835, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =  1368
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =  1368
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =  1368
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =  1368
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =  1368
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =  1368
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 =  68. 71.208. 11, IP_2 = 172. 16.  0.122, TCP hdr, PORT_1 =    80, PORT_2 = 44955, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: syn_ack
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41834, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41834, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: syn_ack
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41835, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41835, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41834, PORT_2 =    80, TCP_SEG_LEN =   622
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41835, PORT_2 =    80, TCP_SEG_LEN =  1063
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41834, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41835, PORT_2 =    80, TCP_SEG_LEN =     0
+# TCP_INSPECT_COMMAND: cmd_pass_through
+# STREAM_STATE: open
+# IPV4 hdr, IP_1 = 172. 16.  0.122, IP_2 = 205.234.218.129, TCP hdr, PORT_1 = 41834, PORT_2 =    80, TCP_SEG_LEN =  1368
+# TCP_INSPECT_COMMAND: cmd_pass_through

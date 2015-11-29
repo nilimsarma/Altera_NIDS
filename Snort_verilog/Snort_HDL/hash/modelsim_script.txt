@@ -1,0 +1,16 @@
+vlib ../modelsim/work
+vmap work ../modelsim/work
+
+vlog -sv generic/typedefs.sv
+vlog -sv parser/parser_typedefs.sv
+vlog -sv generic/protocols_typedefs.sv
+vlog -sv tcp_reassembly/tcp_reassembly_typedefs.sv
+vlog -sv hash/hash_typedefs.sv
+
+vlog -sv generic/channels.sv
+
+vlog -sv hash/hash.sv
+vlog -sv hash/hash_tb.sv
+
+vsim hash_tb
+run 10000
